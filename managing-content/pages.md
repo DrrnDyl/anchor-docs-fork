@@ -20,7 +20,7 @@ as. Don't worry, we'll get more into that in a little bit...
 To create a page, click the green “Create a new page” button. You’ll be greeted
 with a minimal writing interface (see below).
 
-![Anchor’s new page screen](/images/posts-new.png)
+![Anchor’s new page screen](/images/pages-new.png)
 
 The extra fields (excluding custom fields) are explained below.
 
@@ -49,7 +49,7 @@ The unique identifier and section of your blog’s URL that tells you about the 
 Useful for SEO and usability (or "guessability").
 
 <code class="highlighter-rouge">
-http://mydomain.com/blog/<strong>my-page-slug-example</strong>
+http://mydomain.com/<strong>my-page-slug-example</strong>
 </code>
 
 
