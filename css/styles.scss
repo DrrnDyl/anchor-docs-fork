@@ -24,20 +24,20 @@ $white: #ffffff;
 
 // Prefix Mixins
 
-@mixin transition($transition: .2s) {
-	-webkit-transition: $transition;
-	-moz-transition: $transition;
-	-o-transition: $transition;
-	-ms-transition: $transition;
-	transition: $transition;
-}
-
 @mixin box-shadow($shadow: 0 0 20px fade-out($subtitle, 0.75)) {
 	-webkit-box-shadow: $shadow;
 	-moz-box-shadow: $shadow;
 	-o-box-shadow: $shadow;
 	-ms-box-shadow: $shadow;
 	box-shadow: $shadow;
+}
+
+@mixin transition($transition: .2s) {
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	-o-transition: $transition;
+	-ms-transition: $transition;
+	transition: $transition;
 }
 
 @mixin animation($animation:slideup 2s) {
@@ -309,7 +309,7 @@ small {
 }
 
 strong {
-	font-weight: 500;
+	font-weight: 600;
 }
 
 code {
