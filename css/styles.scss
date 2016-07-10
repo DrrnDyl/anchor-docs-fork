@@ -4,6 +4,7 @@ layout: none
 
 @import 'grid';
 @import 'font-face';
+@import 'syntax';
 
 // Mixins
 
@@ -228,7 +229,7 @@ h3 {
 	font-size: 1.2em;
 	font-weight: 400;
 	line-height: 1.3em;
-	margin: 0 0 .7em 0;
+	margin: 0 0 .4em 0;
 	a {
 		font-weight: 500;
 	}
@@ -237,9 +238,13 @@ h3 {
 p {
 	font-weight: 400;
 	line-height: 1.8em;
-	margin: 0;
-	padding: 0 0 1.4em 0;
+	margin: 0 0 1em 0;
+	padding: 0;
 	color: $copy;
+	+ h2,
+	+ h3 {
+		margin-top: 1.2em;
+	}
 }
 
 li {
@@ -322,8 +327,12 @@ code {
 		border-radius: $corners;
 }
 
-pre > code {
-    overflow-x: scroll;
+pre {
+	> code {
+    overflow: auto;
+		width: 100%;
+		padding: 1.1em 0.9em;
+	}
 }
 
 ::selection {
