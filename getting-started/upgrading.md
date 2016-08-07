@@ -31,7 +31,7 @@ tar --create
 
 1.	Download the [latest version](//anchorcms.com/download)
 2.	Extract the archive and copy/paste/overwrite the `anchor` and `system`
-  folders and the `index.php` file.
+	folders, plus the `index.php` and `composer.json` files.
 3.	Rename `anchor/config/database.php` --> `anchor/config/db.php`
 4.	Rename `anchor/config/application.php` --> `anchor/config/app.php`
 5.	Done!
