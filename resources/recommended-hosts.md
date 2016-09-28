@@ -1,23 +1,9 @@
 ---
 layout: page
-title: Resources
+title: Recommended Hosts
 ---
 
-# Resources
-
-### Logos
-
-Anchor logo in vector and transparent formats.
-
-- [Download as PSD](http://cl.ly/EZDq)
-- [Download as SVG](/images/resources/anchor-logo.svg)
-- [Download as PNG](/images/resources/anchor-logo.png)
-
-### Design Guidelines
-
-Don't go crazy yo.
-
-### Recommended Hosts
+# Recommended Hosts
 
 Here are some of the recommend hosting providers.
 
