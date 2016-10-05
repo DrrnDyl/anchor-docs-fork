@@ -28,7 +28,6 @@ tar --create
 ```
 
 ### Upgrading from 0.8 and above
-*Please read [our blog on upgrading to 0.12](//http://blog.anchorcms.com/posts/012-installation-upgrade) before attempting an upgrade!*
 
 1.	Download the [latest version](//anchorcms.com/download)
 2.	Extract the archive and copy/paste/overwrite the `anchor` and `system`
