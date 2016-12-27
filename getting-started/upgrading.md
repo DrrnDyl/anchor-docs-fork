@@ -44,32 +44,32 @@ tar --create
   *If you have customised the default theme please rename it! or it will be over written.*
 4. Copy the database and application sample files from the installer to your new anchor folder.
 
-  ``` txt
-  cp install/storage/application.distro.php anchor/config/application.php
-  cp install/storage/database.distro.php anchor/config/database.php
-  ```
+   ``` txt
+   cp install/storage/application.distro.php anchor/config/application.php
+   cp install/storage/database.distro.php anchor/config/database.php
+   ```
   
 5. Edit the new files and copy the details from your old config.php file.
-  For example, my old config database details would simply copy from this:
+   For example, my old config database details would simply copy from this:
   
-  ``` php
-  'host' => 'anchor-cms-demo.mysql.eu1.frbit.com',
-  'port' => '3306',
-  'username' => 'anchor-cms-demo',
-  'password' => 'my-awesome-password',
-  'name' => 'anchorcms',
-  'collation' => 'utf8_bin'
-  ```
+   ``` php
+   'host' => 'anchor-cms-demo.mysql.eu1.frbit.com',
+   'port' => '3306',
+   'username' => 'anchor-cms-demo',
+   'password' => 'my-awesome-password',
+   'name' => 'anchorcms',
+   'collation' => 'utf8_bin'
+   ```
   
-  To this:
+   To this:
   
-  ``` php
-  'driver' => 'mysql',
-  'hostname' => 'anchor-cms-demo.mysql.eu1.frbit.com',
-  'port' => 3306,
-  'username' => 'anchor-cms-demo',
-  'password' => 'my-awesome-password',
-  'database' => 'anchorcms'
-  ```
+   ``` php
+   'driver' => 'mysql',
+   'hostname' => 'anchor-cms-demo.mysql.eu1.frbit.com',
+   'port' => 3306,
+   'username' => 'anchor-cms-demo',
+   'password' => 'my-awesome-password',
+   'database' => 'anchorcms'
+   ```
   
 6. Run your site and you're done.
