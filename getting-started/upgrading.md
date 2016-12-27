@@ -50,6 +50,7 @@ tar --create
    ```
   
 5. Edit the new files and copy the details from your old config.php file.
+
    For example, my old config database details would simply copy from this:
   
    ``` php
