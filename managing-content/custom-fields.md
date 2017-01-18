@@ -40,7 +40,10 @@ When you click "Save" your new custom field will be made available in the editin
 See below for the code you need to call your custom field, replacing 'UniqueKey' with the unique key you assigned:
 
 For pages:
-    <?php page_custom_field('UniqueKey')?>
-
+```
+<?php page_custom_field('UniqueKey')?>
+```
 For posts:
-    <?php (article_custom_field('UniqueKey')?>
+```
+<?php (article_custom_field('UniqueKey')?>
+```
